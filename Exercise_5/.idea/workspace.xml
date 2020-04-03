@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2607a095-d309-4472-9000-962d319ec1c1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Exercise_4/uk/src/main/java/ch/noseryoung/uk/domainModels/article/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Exercise_4/uk/src/main/java/ch/noseryoung/uk/domainModels/article/ArticleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Exercise_4/uk/src/main/java/ch/noseryoung/uk/domainModels/article/ArticleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Exercise_4/uk/src/main/java/ch/noseryoung/uk/domainModels/article/ArticleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Exercise_4/uk/src/main/java/ch/noseryoung/uk/domainModels/article/ArticleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Exercise_4/uk/src/main/java/ch/noseryoung/uk/domainModels/auction/Auction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Exercise_4/uk/src/main/java/ch/noseryoung/uk/domainModels/auction/AuctionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Exercise_4/uk/src/main/java/ch/noseryoung/uk/domainModels/auction/AuctionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Exercise_4/uk/src/main/java/ch/noseryoung/uk/domainModels/auction/AuctionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Exercise_4/uk/src/main/java/ch/noseryoung/uk/domainModels/auction/AuctionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Exercise_4/uk/src/main/java/ch/noseryoung/uk/domainModels/bid/Bid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Exercise_4/uk/src/main/java/ch/noseryoung/uk/domainModels/bid/BidController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Exercise_4/uk/src/main/java/ch/noseryoung/uk/domainModels/bid/BidRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Exercise_4/uk/src/main/java/ch/noseryoung/uk/domainModels/bid/BidService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Exercise_4/uk/src/main/java/ch/noseryoung/uk/domainModels/bid/BidServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch/noseryoung/uk/domainModels/article/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch/noseryoung/uk/domainModels/article/ArticleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch/noseryoung/uk/domainModels/article/ArticleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch/noseryoung/uk/domainModels/article/ArticleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch/noseryoung/uk/domainModels/article/ArticleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch/noseryoung/uk/domainModels/article/dto/ArticleDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch/noseryoung/uk/domainModels/article/dto/ArticleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch/noseryoung/uk/domainModels/auction/Auction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch/noseryoung/uk/domainModels/auction/AuctionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch/noseryoung/uk/domainModels/auction/AuctionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch/noseryoung/uk/domainModels/auction/AuctionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch/noseryoung/uk/domainModels/auction/AuctionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch/noseryoung/uk/domainModels/auction/dto/AuctionDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch/noseryoung/uk/domainModels/auction/dto/AuctionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch/noseryoung/uk/domainModels/bid/Bid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch/noseryoung/uk/domainModels/bid/BidController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch/noseryoung/uk/domainModels/bid/BidRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch/noseryoung/uk/domainModels/bid/BidService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch/noseryoung/uk/domainModels/bid/BidServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch/noseryoung/uk/domainModels/bid/dto/BidDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch/noseryoung/uk/domainModels/bid/dto/BidMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exercise_4/uk/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../Exercise_4/uk/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exercise_4/uk/src/main/java/ch/noseryoung/uk/domainModels/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Exercise_4/uk/src/main/java/ch/noseryoung/uk/domainModels/user/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exercise_4/uk/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../Exercise_4/uk/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="uek223: database" type="162271b6:PgImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="uek223: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="uek223: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="uek223: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="uk" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="uk" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="uk" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1a1TiNsvwAUZupB9wIoazVEfnIq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/ch/noseryoung/uk/domainModels/article" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\GitHub\uk223\Exercise_5\uk\src\main\java\ch\noseryoung\uk\domainModels\article" />
+      <recent name="E:\GitHub\uk223\Exercise_5\uk\src\main\java\ch\noseryoung\uk\domainModels\auction" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.uk [bootRun]">
+    <configuration name="uk [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootRun" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="UkApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="uk.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ch.noseryoung.uk.UkApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.uk [bootRun]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2607a095-d309-4472-9000-962d319ec1c1" name="Default Changelist" comment="" />
+      <created>1585902226897</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585902226897</updated>
+      <workItem from="1585902230372" duration="4044000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="903" y="378" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585906239702">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state x="903" y="378" key="#com.intellij.execution.impl.EditConfigurationsDialog/62.0.2498.1440@62.0.2498.1440" timestamp="1585906239702" />
+    <state width="2455" height="414" key="GridCell.Tab.0.bottom" timestamp="1585906326062">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state width="2455" height="414" key="GridCell.Tab.0.bottom/62.0.2498.1440@62.0.2498.1440" timestamp="1585906326062" />
+    <state width="2455" height="414" key="GridCell.Tab.0.center" timestamp="1585906326062">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state width="2455" height="414" key="GridCell.Tab.0.center/62.0.2498.1440@62.0.2498.1440" timestamp="1585906326062" />
+    <state width="2455" height="414" key="GridCell.Tab.0.left" timestamp="1585906326062">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state width="2455" height="414" key="GridCell.Tab.0.left/62.0.2498.1440@62.0.2498.1440" timestamp="1585906326062" />
+    <state width="2455" height="414" key="GridCell.Tab.0.right" timestamp="1585906326062">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state width="2455" height="414" key="GridCell.Tab.0.right/62.0.2498.1440@62.0.2498.1440" timestamp="1585906326062" />
+    <state width="2455" height="414" key="GridCell.Tab.1.bottom" timestamp="1585906297581">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state width="2455" height="414" key="GridCell.Tab.1.bottom/62.0.2498.1440@62.0.2498.1440" timestamp="1585906297581" />
+    <state width="2455" height="414" key="GridCell.Tab.1.center" timestamp="1585906297581">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state width="2455" height="414" key="GridCell.Tab.1.center/62.0.2498.1440@62.0.2498.1440" timestamp="1585906297581" />
+    <state width="2455" height="414" key="GridCell.Tab.1.left" timestamp="1585906297581">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state width="2455" height="414" key="GridCell.Tab.1.left/62.0.2498.1440@62.0.2498.1440" timestamp="1585906297581" />
+    <state width="2455" height="414" key="GridCell.Tab.1.right" timestamp="1585906297581">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state width="2455" height="414" key="GridCell.Tab.1.right/62.0.2498.1440@62.0.2498.1440" timestamp="1585906297581" />
+    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1585906249086">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state width="196" height="457" key="HiddenNamespacesPopup/62.0.2498.1440@62.0.2498.1440" timestamp="1585906249086" />
+  </component>
+</project>
