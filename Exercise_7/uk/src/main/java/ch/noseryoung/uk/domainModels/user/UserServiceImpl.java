@@ -71,4 +71,7 @@ public class UserServiceImpl implements UserService {
         return userRepository.findByUsernameAndLockedFalse(username);
     }
 
+    public List<User> enabled() {
+        return userRepository.enabled();
+    }
 }

@@ -64,4 +64,9 @@ public class UserController {
         return new ResponseEntity<>(HttpStatus.NO_CONTENT);
     }
 
+    @GetMapping({"/enabled"})
+    public ResponseEntity<List<UserDTO>> enabled(){
+        return new ResponseEntity<>(userMapper.toDTOs(userService.enabled()),HttpStatus.OK);
+    }
+
 }

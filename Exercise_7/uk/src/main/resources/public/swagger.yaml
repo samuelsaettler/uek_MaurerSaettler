@@ -441,6 +441,24 @@ definitions:
           $ref: '#/definitions/AuthorityDTO'
     title: RoleDTO
 
+   /enabled:
+     get:
+       tags:
+         - UserController
+       summary: 'Returns all enabled Users'
+       produces:
+         - application/json
+       responses:
+         200:
+           description: OK
+           schema:
+             type: array
+             items:
+               $ref: '#/definitions/UserDTO'
+         403:
+           description: Forbidden
+       deprecated: false
+
   # USER
   UserDTO:
     type: object
